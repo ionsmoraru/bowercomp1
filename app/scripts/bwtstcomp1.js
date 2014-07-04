@@ -8,7 +8,7 @@ angular.module('bwtstcomp1').directive('compTest1', function () {
 
 	return {
 
-		template: '<p>Test Comp1</p>',
+		template: '<div>Test Comp1</div>',
 
 		replace: true
 

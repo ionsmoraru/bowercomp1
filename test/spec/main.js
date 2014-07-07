@@ -3,7 +3,7 @@
 describe('MyApp', function () {
 
   // load the module
-  beforeEach(module('bowercom1App'));
+  beforeEach(module('bowercomp1'));
 
   var scope;
 

@@ -231,15 +231,15 @@ module.exports = function (grunt) {
     uglify: {
        dist: {
          files: {
-           '<%= yeoman.dist %>/scripts/bwtstcomp1.js': [
-             '<%= yeoman.dist %>/scripts/bwtstcomp1.js'
+           '<%= yeoman.dist %>/scripts/scripts.js': [
+             '<%= yeoman.dist %>/scripts/scripts.js'
            ]
          }
        }
     },
     concat: {
       dist: {
-        files: {'<%= yeoman.dist %>/scripts/bwtstcomp1.js': [
+        files: {'<%= yeoman.dist %>/scripts/scripts.js': [
           '<%= yeoman.app %>/scripts/{,*/}*.js',
           '!<%= yeoman.app %>/scripts/app.js']
         }
